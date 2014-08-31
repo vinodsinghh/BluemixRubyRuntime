@@ -1,0 +1,10 @@
+---
+# this is a manifest file
+applications:
+- name: xxxxxtest
+  memory: 512M
+  instances: 1
+  path: .
+  domain: mybluemix.net
+  command: ruby helloworld.rb
+
